@@ -1,0 +1,16 @@
+{
+    "indentRainbow.colors": [
+        "rgba(16,16,16,0.3)",
+        "rgba(16,16,16,0.7)",
+        "rgba(16,16,16,0,5)",
+        "rgba(16,16,16,0.9)"
+    ],
+    
+    "bracketPairColorizer.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 1"
+    ],
+    
+    "editor.fontSize": 13
+}
