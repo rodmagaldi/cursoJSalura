@@ -39,8 +39,8 @@ for (i = 0; i < pacientes.length; i++) {
 
 titulo.addEventListener("click", function() { console.log("Você clicou no título!") });
 
-var botaoAdicionar = document.querySelector("#adicionar-paciente");
-botaoAdicionar.addEventListener("click", function(event) {
+var botaoAdd = document.querySelector("#adicionar-paciente");
+botaoAdd.addEventListener("click", function(event) {
     event.preventDefault();
     console.log("Oi, cliquei no botão!");
 });
