@@ -13,6 +13,9 @@ botaoAdd.addEventListener("click", function(event) {
     //Adiciona o paciente na tabela
     var tabela = document.querySelector("#tabela-pacientes");
     tabela.appendChild(pacienteTr);
+
+    //Limpa o form
+    form.reset();
 });
 
 
